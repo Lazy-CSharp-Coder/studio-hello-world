@@ -1,2 +1,3 @@
 import { bookType } from "./bookType"
-export const schemaTypes = [bookType]
+import { serieType } from "./serieType"
+export const schemaTypes = [bookType, serieType]
