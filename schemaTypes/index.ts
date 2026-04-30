@@ -1,2 +1,2 @@
-import { bookType } from "./posts"
-export const schemaTypes = []
+import { bookType } from "./bookType"
+export const schemaTypes = [bookType]
