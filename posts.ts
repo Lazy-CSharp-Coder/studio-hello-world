@@ -63,7 +63,7 @@ export const bookType = defineType({
     defineField({
       name: 'description',
       type: 'array',
-      of: [{ type: 'string' }]
+      of: [{ type: 'string' }],
     validation: (rule) => rule.required(),
     }),
     defineField({
